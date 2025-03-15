@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Buttons Grid</title>
+    
+    <style>
+        /* Center the button container */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        /* Stack buttons in a column with spacing */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .round-button {
+            width: 300px;
+            height: 50px;
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .round-button:hover {
+            background: linear-gradient(135deg, #ff3d73, #ff1e56);
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Select Your Algorithm</h2>
+
+    <div class="button-container">
+        <button class="round-button" onclick="redirect(1)">Linear Regression</button>
+        <button class="round-button" onclick="redirect(2)">Logistic Regression</button>
+        <button class="round-button" onclick="redirect(3)">Polynomial Regression</button>
+        <button class="round-button" onclick="redirect(4)">Decision Trees</button>
+        <button class="round-button" onclick="redirect(5)">K Nearest Neighbors</button>
+        <button class="round-button" onclick="redirect(6)">Support Vector Machine</button>
+        <button class="round-button" onclick="redirect(7)">Naive Bayes</button>
+        <button class="round-button" onclick="redirect(8)">Random Forest</button>
+    </div>
+
+    <script>
+        function redirect(buttonNumber) {
+            const urls = {
+                1: "linearregression.html",
+                2: "logisticregression.html",
+                3: "polynomialregression.html",
+                4: "Decisiontrees.html",
+                5: "knearest.html",
+                6: "supportvectormachine.html",
+                7: "naivebase.html",
+                8: "randomforest.html",
+
+            };
+            window.location.href = urls[buttonNumber];
+        }
+    </script>
+
+</body>
+</html>
