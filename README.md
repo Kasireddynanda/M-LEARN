@@ -25,5 +25,7 @@ This web application is designed to help students learn machine learning concept
 # The Classification is done like:
 ![image alt](https://github.com/Kasireddynanda/M-LEARN/blob/c751a2e97bd35e4f2ca89101ff9a910b7ca682b5/mlearn.jpeg)
 
+# With This the Students can choose the best algorithm for the required dataset and build machine learning models
+
 
 
