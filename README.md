@@ -7,14 +7,14 @@ This web application is designed to help students learn machine learning concept
 
 # Features
 
--Upload and select different datasets.
--Compare multiple classifiers such as SVM, Decision Tree, Random Forest, KNN, etc.
--Evaluate models using performance metrics like accuracy, precision, recall, and F1-score.
--Visualize dataset distributions, decision boundaries, and performance metrics.
--Interactive UI for easy exploration of machine learning concepts.
+- Upload and select different datasets.
+- Compare multiple classifiers such as SVM, Decision Tree, Random Forest, KNN, etc.
+- Evaluate models using performance metrics like accuracy, precision, recall, and F1-score.
+- Visualize dataset distributions, decision boundaries, and performance metrics.
+- Interactive UI for easy exploration of machine learning concepts.
 # Tech Stack
 
--Frontend: Streamlit / Django (depending on implementation)
--Backend: Django (if used)
--Machine Learning: Scikit-learn, Pandas, NumPy
--Visualization: Matplotlib, Seaborn
+- Frontend: Streamlit / Django (depending on implementation)
+- Backend: Django (if used)
+- Machine Learning: Scikit-learn, Pandas, NumPy
+- Visualization: Matplotlib, Seaborn
