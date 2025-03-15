@@ -18,3 +18,7 @@ This web application is designed to help students learn machine learning concept
 - Backend: Django (if used)
 - Machine Learning: Scikit-learn, Pandas, NumPy
 - Visualization: Matplotlib, Seaborn
+
+# The Web Application Looks like 
+![image alt](https://github.com/Kasireddynanda/M-LEARN/blob/c751a2e97bd35e4f2ca89101ff9a910b7ca682b5/mlearn2.jpeg)
+
